@@ -1,0 +1,34 @@
+
+
+-Connecté
+1. getLastName()
+2. getFirstName()
+3. getMail()
+4. getId()
+5. getRole()
+6. setMail(idUser, newMail)
+7. setRole(idUser, newMail)
+8. setPassword(idUser)
+9. deleteAccount(idUser) (faudra vérifier si y'a des reservations, ...)
+10. changeProfilePicture(picture)
+11. changeTheme(theme)
+12. selectSchedule(schedule)
+13. 
+
+
+-Connexion
+1. forgotPassword(mail) (appelle setPassword)
+2. checkInformations(mail, password)
+3. 
+
+
+-Inscription
+1. addAccount(firstName, lastName, mail) (appellera setMail et setRole)
+2. checkIfAlreadyExists(firstName, lastName, mail)
+3. checkMailFormat(mail)
+4. checkPasswordFormat(password)
+5. checkFirstNameFormat(firstName)
+6. checkLastNameFormat(lastName)
+7. sendNotificationRequest(sender, receiver, body) body = contenu du mail/notif
+8. sendMailRequest(sender, receiver, body) body = contenu du mail/notif
+
